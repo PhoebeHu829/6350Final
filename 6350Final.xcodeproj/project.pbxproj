@@ -15,6 +15,8 @@
 		ACEE12B82768512B0031277F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE12B62768512B0031277F /* LaunchScreen.storyboard */; };
 		ACEE12C32768512C0031277F /* _350FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE12C22768512C0031277F /* _350FinalTests.swift */; };
 		ACEE12CE2768512C0031277F /* _350FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE12CD2768512C0031277F /* _350FinalUITests.swift */; };
+		ACEE12DD27685E950031277F /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE12DB27685E950031277F /* MovieTableViewCell.swift */; };
+		ACEE12DE27685E950031277F /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE12DC27685E950031277F /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ACEE12C92768512C0031277F /* 6350FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6350FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEE12CD2768512C0031277F /* _350FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _350FinalUITests.swift; sourceTree = "<group>"; };
 		ACEE12CF2768512C0031277F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEE12DB27685E950031277F /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		ACEE12DC27685E950031277F /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				ACEE12B42768512B0031277F /* Assets.xcassets */,
 				ACEE12B62768512B0031277F /* LaunchScreen.storyboard */,
 				ACEE12B92768512B0031277F /* Info.plist */,
+				ACEE12DB27685E950031277F /* MovieTableViewCell.swift */,
+				ACEE12DC27685E950031277F /* MovieTableViewCell.xib */,
 			);
 			path = 6350Final;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				ACEE12B82768512B0031277F /* LaunchScreen.storyboard in Resources */,
 				ACEE12B52768512B0031277F /* Assets.xcassets in Resources */,
+				ACEE12DE27685E950031277F /* MovieTableViewCell.xib in Resources */,
 				ACEE12B3276851290031277F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				ACEE12B0276851290031277F /* ViewController.swift in Sources */,
 				ACEE12AC276851290031277F /* AppDelegate.swift in Sources */,
+				ACEE12DD27685E950031277F /* MovieTableViewCell.swift in Sources */,
 				ACEE12AE276851290031277F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
